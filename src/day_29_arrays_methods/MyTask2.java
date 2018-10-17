@@ -30,7 +30,6 @@ public class MyTask2 {
 			System.out.println(Arrays.toString(numbers[i]));
 		}
 		
-		
 //		Print values in the following format
 //		[ ele1, ele2, ele3...]
 //		[ ele1, ele2, ele3...]
