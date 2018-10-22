@@ -6,8 +6,18 @@ import java.util.Random;
 public class TopSecret {
 	
 	public static void main(String[] args) {
-		int [] arr = getUniqueRandoms(4, 15);
-		System.out.println(Arrays.toString(arr));
+		
+//		 I want to get 5 unique random number between 0-50;
+		int [] i = getUniqueRandoms(5, 20);
+		System.out.println(Arrays.toString(getUniqueRandoms(5, 20)));
+		System.out.println(Arrays.toString(getUniqueRandoms(3, 10)));
+
+		System.out.println(Arrays.toString(getUniqueRandoms(4, 20)));
+
+		System.out.println(Arrays.toString(getUniqueRandoms(10, 40)));
+
+		System.out.println(Arrays.toString(getUniqueRandoms(2, 10)));
+
 	}
 	
 	
@@ -20,7 +30,6 @@ public class TopSecret {
 		else {
 			return false;
 		}
-			
 	}
 	
 	/**
