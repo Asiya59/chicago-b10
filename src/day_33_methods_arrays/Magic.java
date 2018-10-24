@@ -1,7 +1,6 @@
-package day_32_methods_arrays;
+package day_33_methods_arrays;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Magic {
 	
