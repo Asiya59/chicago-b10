@@ -25,6 +25,20 @@ public class FacebookUser {
 		this.name = name;
 	}
 	
+	public static void deleteAccount(FacebookUser user) {
+		user.age = 0;
+		user.name = null;
+		user.username = null;
+		user.password = null;
+		user.numOfFriends = 0;
+		
+	}
+	
+	public static void seeUsersInfo(FacebookUser user) {
+		
+		user.userInfo();
+	}
+	
 	public boolean sendFriendRequest(FacebookUser targetUser) {
 		if(targetUser.numOfFriends < 5000) {
 			System.out.println("Friend Request sent to " + targetUser.username);

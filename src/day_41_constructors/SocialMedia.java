@@ -17,10 +17,28 @@ public class SocialMedia {
 		
 		boolean check = user3.sendFriendRequest(user1);
 		System.out.println(check);
-		System.out.println("---------");
+		System.out.println("---------DELETING ACCOUNTS----\n");
 		user1.userInfo();
-		user2.userInfo();
-		user3.userInfo();
+		FacebookUser.deleteAccount(user1);
+		user1.userInfo();
+		//
+		
+		FacebookUser.seeUsersInfo(user3);
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
