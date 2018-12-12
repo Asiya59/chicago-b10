@@ -1,4 +1,4 @@
-package MondayMentoringSessionOctober15;
+package mondayMentoringSessions;
 
 import java.util.Arrays;
 
